@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositório público do lucasn782</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(225, 225, 225);
+            padding: 10px;
+            text-align: center;
+            text-shadow: 10px 10px 30px black;
+        }
+        header > h1 > a{
+            text-decoration: none;
+            color: black;
+            transition: 0.4s;
+        }
+        header > h1 > a:hover{
+            text-decoration: underline;
+            color: blue;
+            transition: 0.3s;
+        }
+        section{
+            padding-top: 10%;
+            padding-bottom: 10%;
+            line-height: 2em;
+            padding-left: 30px;
+            font-size: 3.5vw;
+        }
+        section.normal{
+            background-color: white;
+            color: black;
+        }
+        section.imagem{
+            background-color: rgb(51, 51, 51);
+            color: white;
+            box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        section.imagem > p{
+            display: inline-block;
+            padding: 5px;
+            background-color: rgba(0, 0, 0, 0.514);
+            text-shadow: 1px 1px 0px black;
+            box-shadow: 10px 10px 35px black;
+        }
+        section#img01{
+            background-image: url("imagens/IMG_20220719_174005.jpg");
+        }
+        section#img02{
+            background-image: url("imagens/IMG_20220719_174149.jpg");
+            background-position: bottom center;
+        }
+        section#img03{
+            background-image: url("imagens/IMG_20220719_174253.jpg");
+            background-position: bottom center;
+        }
+        footer{
+            background-image: linear-gradient(to right, black 40%, gray);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+            transition: 0.4s;
+        }
+
+        a:hover{
+            color: blue;
+            text-decoration: underline;
+            font-weight: bolder;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Repositório público do <a href="https://github.com/lucasn782" target="_blank">lucasn782</a></h1>
+    </header>
+    <section class="normal">
+        <p>Me chamo Lucas, tenho 22 anos e estou cursando Ciências da Computação, onde me encontro atualmente finalizando meu curso.</p>
+    </section>
+    <section class="imagem" id="img01">
+        <p>Busco ingressar no mercado de TI, mais especificamente na área de desenvolvimento de sistemas.</p>
+    </section>
+    <section>
+        <p>Me considero uma pessoa focada e com um enorme desejo pelo aprendizado. Seja por motivos profissionais ou algo mais pessoal.</p>
+    </section>
+    <section class="imagem" id="img02">
+        <p>Meus idiomas que possuo algum conhecimento, são o inglês de nível intermediário. E meu idioma nativo, ou seja, português brasileiro.</p>
+    </section>
+    <section>
+        <p>Além de possuir habilidades com algumas ferramentas, como por exemplo:</p>
+        <ul>
+            <li>Pacote Office de Nível intermediário</li>
+            <li>Conhecimento básico de Redes.</li>
+            <li>Conhecimento intermediário em SQL</li>
+            <li>Conhecimento intermediário em HTML5, CSS3 e JavaScript</li>
+            <li>Conhecimento básico em Node.js</li>
+            <li>Já programei em C, C++, Java, Python e PHP</li>
+            <li>Conhecimento intermediário em Linux</li>
+            <li>Conhecimento básico em Arduíno, ESP32 e Raspberry Pi</li>
+            <li>Conhecimento básico em Linguagem de Montagem e sistemas Digitais.</li>
+        </ul>
+    </section>
+    <section class="imagem" id="img03">
+        <p>Em dezembro de 2016, fiz um curso de Operador de Computador pelo SENAI em 2016.</p>
+        <p>Fiquei em 4° lugar na 9ª Olimpíada Brasileira de Matemática - OBMEP 2013</p>
+        <p>Tirei um certificado da Cisco Network Academy, que foi emitido no dia 31/03/2022. O certificado em questão foi o "Cybersecurity Essentials".</p>
+    </section>
+    <footer>
+        <p>Site criado por <a href="https://github.com/lucasn782" target="_blank">lucasn782</a>.</p>
+    </footer>
+</body>
+</html>
